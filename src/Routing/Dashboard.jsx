@@ -29,18 +29,17 @@ const Dashboard = () => {
  
   
 return (
-  <div className='grid grid-cols-5 gap-2'>
+  <div className='p-2 grid grid-cols-5 gap-2'>
     {Products.map((product) => (
-    <div className="col-md-3">
+    <div className="col-md-3 ">
       <Card key={product.id} style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={product.image} height={'10rem'} style={{alignItems:'center',padding:'5px' }}/>
+        <Card.Img variant="top" src={product.image} style={{height:"345px"}}/>
         <Card.Body>
           <Card.Title>{product.id}  
             <span>{` ) ${product.title}`}</span>
-            <p>{product.category}</p>
           </Card.Title>
           <Card.Text>
-            <span className='wrap'>About :{product.description}</span>
+            <span className='font-medium text-xl'>Category :   {product.category}</span>
           </Card.Text> 
           <Card.Text>
           
