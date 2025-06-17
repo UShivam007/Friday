@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
         <div className='cube'>
             <div className="left">
-             <p className=" text-3xl   text-green-400">Minute</p>
+             <p className=" text-3xl font-extrabold text-gray-700">Minute</p>
              <span><img src="logo.png" alt="" style={{height:"60px"}} /></span>
             </div>
             <div className ="right">  

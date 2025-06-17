@@ -4,7 +4,8 @@ import { useNavigate } from "react-router";
 
 
 const Home = () => {
-  let nav = useNavigate();
+
+  const nav = useNavigate();
   function handelclick(){
     nav("/About")
   }
