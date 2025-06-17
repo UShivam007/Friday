@@ -33,7 +33,7 @@ return (
     {Products.map((product) => (
     <div className="col-md-3 ">
       <Card key={product.id} style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={product.image} style={{height:"345px"}}/>
+        <Card.Img variant="top" src={product.image} style={{height:"345px" , padding:"10px"}}/>
         <Card.Body>
           <Card.Title>{product.id}  
             <span>{` ) ${product.title}`}</span>
