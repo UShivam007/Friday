@@ -10,12 +10,13 @@ const Navbar = () => {
              <span><img src="logo.png" alt="" style={{height:"60px"}} /></span>
             </div>
             <div className ="right">  
-                <NavLink to="/Home">Home</NavLink>
-                <NavLink to="/About">About us</NavLink>
-                <NavLink to="/Courses/:coursedetails">Courses</NavLink>
-                <NavLink to="/Contact">Contact</NavLink> 
-                <NavLink to="/Dashboard">DashBoard</NavLink>
-                <NavLink to="/Login">Login</NavLink>
+                <NavLink to="/home">Home</NavLink>
+                <NavLink to="/about">About us</NavLink>
+                <NavLink to="/courses/:coursedetails">Courses</NavLink>
+                <NavLink to="/contact">Contact</NavLink> 
+                <NavLink to="/dashboard">DashBoard</NavLink>
+                <NavLink to="/login">Login</NavLink>
+                <NavLink to="/register" className={"font-medium text-sm text-gray-900"}>Register</NavLink>
             </div>
         </div>
   )

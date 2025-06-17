@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from './subpage/Navbar'
-import { Outlet } from 'react-router'
+import { Outlet, useLocation } from 'react-router'
+import Footer from './subpage/Footer'
 
-const Applicaion = () => {
+const Application = () => {
+  const location = useLocation();
+
   return (
     <div>
-      <Navbar/>
-      <div className='bg-[#e36969]'>
-      <Outlet/>
-      </div>
-        
-        
+      <Navbar />
+      <Outlet />
+      {location.pathname !== "/ " && <Footer />}
     </div>
   )
 }
 
-export default Applicaion;
+export default Application;

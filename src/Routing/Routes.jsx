@@ -10,6 +10,9 @@ import Login from './subpage/Login';
 import Dashboard from './Dashboard';
 import Course from './Courses';
 import AboutUS from './AboutUS';
+import Wrapper from './subpage/Wrapper';
+import Application from './Applicaion';
+import Register from './subpage/Register';
 
 
 
@@ -17,19 +20,19 @@ let router = createBrowserRouter
 ([
     {
         path: "/",
-        element: <Applicaion/>,
+        element: <Application />,
         children:
         [
             {
-                path:"/Home",
+                path:"/home",
                 element:<Home/>
             },
             {
-                path:"/About",
+                path:"/about",
                 element:<AboutUS/>
             },
             {
-                path: "/Courses/:coursedetails",
+                path: "/courses/:coursedetails",
                 element: <Course/>,
                 children:[
                     {
@@ -48,17 +51,25 @@ let router = createBrowserRouter
             },
           
             {
-                path: "/Contact",
+                path: "/contact",
                 element: <Contact />
             },
             {
-                path:"/Dashboard",
+                path:"/dashboard",
                 element:<Dashboard/>
             },
             {
-                path:"/Login",
+                path:"/login",
                 element:<Login/>
             },
+            {
+                path:"/wrapper",
+                element:<Wrapper />  
+            },
+            {
+                path:"/register",
+                element:<Register />
+            }
         ]
     },
     {

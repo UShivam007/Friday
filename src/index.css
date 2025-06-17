@@ -8,13 +8,14 @@ url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..90
   font-style: normal;
 }
 
-/* @media (prefers-color-scheme: light) {
+ /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
- 
-} */
+  } 
+  }  
+  */
+
  
  @import "tailwindcss";
 
