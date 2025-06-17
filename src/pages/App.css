@@ -1,0 +1,52 @@
+
+.boss{
+display: flex;
+flex-direction: row;
+gap: 15px;
+margin-top: 5px;
+margin-left: 5px;
+}
+
+.box h1{
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  display: inline-block;
+  width: 360px;
+  border: 2.5px solid black;
+  padding: 15px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+}
+
+#lio1{
+  background-color: beige
+}
+#lio2{
+  background-color: teal
+}
+
+#lio3{
+  font-size: large;
+  font-weight: 900;
+  margin: 20px;
+  background-color: aliceblue;
+  display: inline-block;
+}
+#lio3 pre{
+  display: inline;
+}
+#lio3 button{
+  height: 30px;
+  width: 50px;
+  background-color: crimson;
+  border: 1px solid black;
+}
+
+
+
+@import "tailwindcss";

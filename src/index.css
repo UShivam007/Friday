@@ -1,0 +1,16 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  background-color: white;
+  margin-left: 2px;
+  font-family: "Rubik","Alumni Sans SC", sans-serif;
+  font-style: normal;
+}
+
+.root{
+  background-color: darkgray;
+}
+
+
+
