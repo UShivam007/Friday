@@ -19,7 +19,6 @@ const Register = () => {
     }
     return (
         <div>
-
             <form onSubmit={handleSubmit(onSubmit)} className='max-w-sm mx-auto p-3'>
                 <div>
                 <label htmlFor="firstname" className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>First Name :</label>
